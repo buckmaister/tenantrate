@@ -66,9 +66,10 @@ const AddReviewPage = () => {
           label="Tenant"
           onChange={(e) => setTenant(e.target.value)}
         >
-          <MenuItem value={1}>Anna Bianchi</MenuItem>
-          <MenuItem value={2}>Mario Rossi</MenuItem>
-          <MenuItem value={3}>Sara Neri</MenuItem>
+          <MenuItem value={1}>John Smith</MenuItem>
+          <MenuItem value={2}>Emily Johnson</MenuItem>
+          <MenuItem value={3}>Michael Brown</MenuItem>
+          <MenuItem value={3}>Jessica Davis</MenuItem>
         </Select>
       </FormControl>
       {['cordiality', 'responseTime', 'price'].map((field) => (

@@ -43,10 +43,10 @@ const TenantsPage = () => {
       </Title>
       <Grid container spacing={3}>
         {[
-          { name: 'Anna Bianchi', location: 'San Giovanni, Roma', description: 'Tranquilla, responsabile, educata' },
-          { name: 'Mario Rossi', location: 'Navigli, Milano', description: 'Cordiale, ordinato, rispettoso' },
-          { name: 'Sara Neri', location: 'Taranto', description: 'Puntuale, elegante, pulito' },
-          { name: 'Luca Verdi', location: 'Napoletano', description: 'Onesto, LGBTQ+ friendly, pet friendly' },
+          { name: 'John Smith', location: 'New York City', description: 'Calm, responsible, polite' },
+          { name: 'Emily Johnson', location: 'Chicago', description: 'Friendly, tidy, respectful' },
+          { name: 'Michael Brown', location: 'Miami', description: 'Punctual, elegant, clean' },
+          { name: 'Jessica Davis', location: 'Neapolitan', description: 'Honest, LGBTQ+ friendly, pet friendly' },
         ].map((renter, index) => (
           <Grid item xs={12} sm={6} md={3} key={index}>
             <RenterCard>
